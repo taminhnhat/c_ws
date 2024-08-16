@@ -1,0 +1,7 @@
+add_test([=[HelloTest.TestBasicAssertions]=]  E:/Workspaces/c_ws/google_test/build/hello_test.exe [==[--gtest_filter=HelloTest.TestBasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HelloTest.TestBasicAssertions]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[HelloTest.InvalidParam]=]  E:/Workspaces/c_ws/google_test/build/hello_test.exe [==[--gtest_filter=HelloTest.InvalidParam]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HelloTest.InvalidParam]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[HelloTest.ValidParam]=]  E:/Workspaces/c_ws/google_test/build/hello_test.exe [==[--gtest_filter=HelloTest.ValidParam]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HelloTest.ValidParam]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  hello_test_TESTS HelloTest.TestBasicAssertions HelloTest.InvalidParam HelloTest.ValidParam)

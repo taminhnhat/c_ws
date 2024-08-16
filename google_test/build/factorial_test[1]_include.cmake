@@ -1,0 +1,5 @@
+if(EXISTS "E:/Workspaces/c_ws/google_test/build/factorial_test[1]_tests.cmake")
+  include("E:/Workspaces/c_ws/google_test/build/factorial_test[1]_tests.cmake")
+else()
+  add_test(factorial_test_NOT_BUILT factorial_test_NOT_BUILT)
+endif()

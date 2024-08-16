@@ -1,0 +1,1 @@
+-isystem "E:/Workspaces/c_ws/google_test/build/_deps/googletest-src/googlemock/include" -isystem "E:/Workspaces/c_ws/google_test/build/_deps/googletest-src/googlemock" -isystem "E:/Workspaces/c_ws/google_test/build/_deps/googletest-src/googletest/include" -isystem "E:/Workspaces/c_ws/google_test/build/_deps/googletest-src/googletest"

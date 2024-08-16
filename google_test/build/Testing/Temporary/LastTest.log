@@ -1,0 +1,138 @@
+Start testing: Aug 16 17:03 SE Asia Standard Time
+----------------------------------------------------------
+1/5 Testing: HelloTest.TestBasicAssertions
+1/5 Test: HelloTest.TestBasicAssertions
+Command: "E:/Workspaces/c_ws/google_test/build/rectangle_test.exe" "--gtest_filter=HelloTest.TestBasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: E:/Workspaces/c_ws/google_test/build
+"HelloTest.TestBasicAssertions" start time: Aug 16 17:03 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Workspaces\c_ws\google_test\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = HelloTest.TestBasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.TestBasicAssertions
+[       OK ] HelloTest.TestBasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.TestBasicAssertions" end time: Aug 16 17:03 SE Asia Standard Time
+"HelloTest.TestBasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: RectangleTest.InvalidParam
+2/5 Test: RectangleTest.InvalidParam
+Command: "E:/Workspaces/c_ws/google_test/build/rectangle_test.exe" "--gtest_filter=RectangleTest.InvalidParam" "--gtest_also_run_disabled_tests"
+Directory: E:/Workspaces/c_ws/google_test/build
+"RectangleTest.InvalidParam" start time: Aug 16 17:03 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Workspaces\c_ws\google_test\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RectangleTest.InvalidParam
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangleTest
+[ RUN      ] RectangleTest.InvalidParam
+[       OK ] RectangleTest.InvalidParam (0 ms)
+[----------] 1 test from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangleTest.InvalidParam" end time: Aug 16 17:03 SE Asia Standard Time
+"RectangleTest.InvalidParam" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: RectangleTest.ValidParam
+3/5 Test: RectangleTest.ValidParam
+Command: "E:/Workspaces/c_ws/google_test/build/rectangle_test.exe" "--gtest_filter=RectangleTest.ValidParam" "--gtest_also_run_disabled_tests"
+Directory: E:/Workspaces/c_ws/google_test/build
+"RectangleTest.ValidParam" start time: Aug 16 17:03 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Workspaces\c_ws\google_test\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RectangleTest.ValidParam
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangleTest
+[ RUN      ] RectangleTest.ValidParam
+[       OK ] RectangleTest.ValidParam (0 ms)
+[----------] 1 test from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangleTest.ValidParam" end time: Aug 16 17:03 SE Asia Standard Time
+"RectangleTest.ValidParam" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: CircleTest.FunctionTest
+4/5 Test: CircleTest.FunctionTest
+Command: "E:/Workspaces/c_ws/google_test/build/circle_test.exe" "--gtest_filter=CircleTest.FunctionTest" "--gtest_also_run_disabled_tests"
+Directory: E:/Workspaces/c_ws/google_test/build
+"CircleTest.FunctionTest" start time: Aug 16 17:03 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Workspaces\c_ws\google_test\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = CircleTest.FunctionTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircleTest
+[ RUN      ] CircleTest.FunctionTest
+[       OK ] CircleTest.FunctionTest (0 ms)
+[----------] 1 test from CircleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CircleTest.FunctionTest" end time: Aug 16 17:03 SE Asia Standard Time
+"CircleTest.FunctionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: FactorialTest.FunctionTest
+5/5 Test: FactorialTest.FunctionTest
+Command: "E:/Workspaces/c_ws/google_test/build/factorial_test.exe" "--gtest_filter=FactorialTest.FunctionTest" "--gtest_also_run_disabled_tests"
+Directory: E:/Workspaces/c_ws/google_test/build
+"FactorialTest.FunctionTest" start time: Aug 16 17:03 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Workspaces\c_ws\google_test\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FactorialTest.FunctionTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorialTest
+[ RUN      ] FactorialTest.FunctionTest
+[       OK ] FactorialTest.FunctionTest (0 ms)
+[----------] 1 test from FactorialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FactorialTest.FunctionTest" end time: Aug 16 17:03 SE Asia Standard Time
+"FactorialTest.FunctionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 16 17:03 SE Asia Standard Time

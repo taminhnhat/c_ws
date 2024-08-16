@@ -1,0 +1,65 @@
+cmake_minimum_required(VERSION 3.14)
+project(my_project
+  VERSION 1.0.0
+  LANGUAGES CXX)
+
+# GoogleTest requires at least C++14
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
+)
+
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+add_executable(
+  rectangle_test
+  test/rectangle.test.cpp
+  src/rectangle.cpp
+)
+add_executable(
+  circle_test
+  test/circle.test.cpp
+  src/circle.cpp
+)
+add_executable(
+  factorial_test
+  test/factorial.test.cpp
+  src/factorial.cpp
+)
+add_executable(
+  main
+  main.cpp
+  src/rectangle.cpp
+  src/circle.cpp
+)
+
+target_link_libraries(
+  rectangle_test
+  GTest::gtest_main
+)
+target_link_libraries(
+  circle_test
+  GTest::gtest_main
+)
+target_link_libraries(
+  factorial_test
+  GTest::gtest_main
+)
+
+target_include_directories(rectangle_test PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(circle_test PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(factorial_test PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(main PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+include(GoogleTest)
+gtest_discover_tests(rectangle_test)
+gtest_discover_tests(circle_test)
+gtest_discover_tests(factorial_test)
