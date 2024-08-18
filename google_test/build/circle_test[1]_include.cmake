@@ -1,5 +1,0 @@
-if(EXISTS "E:/Workspaces/c_ws/google_test/build/circle_test[1]_tests.cmake")
-  include("E:/Workspaces/c_ws/google_test/build/circle_test[1]_tests.cmake")
-else()
-  add_test(circle_test_NOT_BUILT circle_test_NOT_BUILT)
-endif()

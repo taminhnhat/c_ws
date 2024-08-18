@@ -1,5 +1,0 @@
-if(EXISTS "E:/Workspaces/c_ws/google_test/build/rectangle_test[1]_tests.cmake")
-  include("E:/Workspaces/c_ws/google_test/build/rectangle_test[1]_tests.cmake")
-else()
-  add_test(rectangle_test_NOT_BUILT rectangle_test_NOT_BUILT)
-endif()

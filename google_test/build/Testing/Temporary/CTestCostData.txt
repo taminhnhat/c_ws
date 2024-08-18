@@ -1,9 +1,0 @@
-HelloTest.BasicAssertions 9 0.000869978
-HelloTest.InvalidParam 10 0.00070737
-HelloTest.ValidParam 10 0.00065579
-HelloTest.TestBasicAssertions 6 0.00167632
-CircleTest.FunctionTest 4 0.00188788
-RectangleTest.InvalidParam 4 0.00222955
-RectangleTest.ValidParam 4 0.00219758
-FactorialTest.FunctionTest 3 0.0031718
----

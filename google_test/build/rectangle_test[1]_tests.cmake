@@ -1,7 +1,0 @@
-add_test([=[HelloTest.TestBasicAssertions]=]  E:/Workspaces/c_ws/google_test/build/rectangle_test.exe [==[--gtest_filter=HelloTest.TestBasicAssertions]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[HelloTest.TestBasicAssertions]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[RectangleTest.InvalidParam]=]  E:/Workspaces/c_ws/google_test/build/rectangle_test.exe [==[--gtest_filter=RectangleTest.InvalidParam]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[RectangleTest.InvalidParam]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[RectangleTest.ValidParam]=]  E:/Workspaces/c_ws/google_test/build/rectangle_test.exe [==[--gtest_filter=RectangleTest.ValidParam]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[RectangleTest.ValidParam]=]  PROPERTIES WORKING_DIRECTORY E:/Workspaces/c_ws/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  rectangle_test_TESTS HelloTest.TestBasicAssertions RectangleTest.InvalidParam RectangleTest.ValidParam)
